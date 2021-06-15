@@ -2,7 +2,7 @@ import {
   SET_REPO,
   SET_REPO_ERROR,
   SET_REPO_LOADING
-} from '../action'
+} from './action'
 
 const initialState = {
   repo: {},

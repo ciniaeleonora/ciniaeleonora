@@ -16,7 +16,7 @@ export function setReposLoading(payload) {
 
 export function fetchRepos(user) {
   return (dispatch) => {
-    dispatch(setRepoLoading(true))
+    dispatch(setReposLoading(true))
     fetch(`https://api.github.com/users/${user}/repos`)
       .then(response => response.json())
       .then(result => dispatch(setRepos(result)))
