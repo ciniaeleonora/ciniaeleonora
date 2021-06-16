@@ -14,7 +14,7 @@ function App() {
       <Router>
         <nav className="navbar navbar-dark" style={{backgroundColor: "#2d2d34", padding:"30px"}}>
           <div className="container-fluid">
-            <Link to="/" className="navbar-brand"><b>Github</b></Link>
+            <Link to="/" className="navbar-brand"><b>Github Repositories</b></Link>
           </div>
         </nav>
       <div>     
@@ -26,13 +26,13 @@ function App() {
       </div>
 
       <footer
-      style={{textAlign: "center",
+      style={{textAlign: "right",
       padding: "30px",
       backgroundColor: "#2d2d34",
       color: "white",
       marginTop: "15vh"}}
       >
-        <b> Hacktiv8 - React Challange</b>
+        <b> by: ciniaeleonora</b>
         <br />
       </footer>
     </Router>
