@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, { useState} from 'react'
 import {useDispatch, useSelector}  from 'react-redux'
 import { fetchRepos } from '../store/action'
 import List from '../components/List'
@@ -36,8 +36,8 @@ function Home () {
         </div>
       </div>
       :
-      <div>
-        <h1>Input github username to get the repositories</h1>
+      <div className="mt-5">
+        <h1>Welcome to G-Reps you can search github repositories by inputing the username above</h1>
       </div> 
     }
     </>

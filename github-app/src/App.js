@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -14,7 +13,7 @@ function App() {
       <Router>
         <nav className="navbar navbar-dark" style={{backgroundColor: "#2d2d34", padding:"30px"}}>
           <div className="container-fluid">
-            <Link to="/" className="navbar-brand"><b>Github Repositories</b></Link>
+            <Link to="/" className="navbar-brand"><b>G-Reps</b></Link>
           </div>
         </nav>
       <div>     
